@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "150918915844",
+    "project_id": "mibrace-cf281",
+    "storage_bucket": "mibrace-cf281.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150918915844:android:0f621f6577e3bdc36c5251",
+        "android_client_info": {
+          "package_name": "com.mibracemaster.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150918915844-gvre6hao4jalsr20bqd56tltbjb6tg5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc3-gunXDUV31RE7g290HTZatgdXLONYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150918915844-gvre6hao4jalsr20bqd56tltbjb6tg5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

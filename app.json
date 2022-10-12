@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "Mibrace",
-    "slug": "Mibrace",
+    "name": "miBraceClone",
+    "slug": "miBraceClone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/images/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,14 +19,22 @@
     "ios": {
       "supportsTablet": true
     },
+
     "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.mibracemaster.www",
+      "useNextNotificationsApi": true,
+      "versionCode": 1,
+      
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       }
+    
     },
+  
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/favicon.png"
     }
   }
 }
