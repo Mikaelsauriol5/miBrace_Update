@@ -42,7 +42,7 @@ const Rating = () => {
           {
             arrayOfButtons.map(el => (
 
-              <Text key={el} style={{padding: 12, backgroundColor: el === buttonId ? 'lightgray' : 'lightgreen', marginHorizontal: 3}} onPress= {() => setButtonId(el)}>
+              <Text key={el} style={{padding: 12, backgroundColor: el === buttonId ? 'green' : 'lightgreen', marginHorizontal: 3}} onPress= {() => setButtonId(el)}>
                 {el+''}</Text>
             ))
           }
@@ -55,7 +55,7 @@ const Rating = () => {
           {
             arrayOfButtons2.map(el => (
 
-              <Text key={el} style={{padding: 12, backgroundColor: el === buttonId2 ? 'lightgray' : 'lightgreen', marginHorizontal: 3}} onPress= {() => setButtonId2(el)}>
+              <Text key={el} style={{padding: 12, backgroundColor: el === buttonId2 ? 'green' : 'lightgreen', marginHorizontal: 3}} onPress= {() => setButtonId2(el)}>
                 {el+''}</Text>
             ))
           }
